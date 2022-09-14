@@ -39,7 +39,7 @@ def main():
   driver = driver_init()
 
   # time out 10s
-  wait = WebDriverWait(driver,10)
+  wait = WebDriverWait(driver,60)
   #driver.implicitly_wait(10)
 
   load_dotenv()
