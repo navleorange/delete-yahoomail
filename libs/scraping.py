@@ -21,7 +21,7 @@ def use_filter(driver:webdriver.Chrome,wait:WebDriverWait,keyword:str):
     except:
         raise Exception("Error: failed to send keyword")
     
-    time.sleep(2)
+    time.sleep(0.25)
 
 def scroll_page(driver:webdriver.Chrome,class_name:str,prev_html:str):
     SCROLL_WAIT_TIME = 0.5
